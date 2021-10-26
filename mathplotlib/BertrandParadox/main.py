@@ -2,8 +2,8 @@ import numpy as np
 from matplotlib import pyplot as plt
 import functions
 
-CHORDS = 1000
-POINTS = 3000
+CHORDS = 100
+POINTS = 300
 circle = np.array(functions.get_circle(1))
 
 # метод "случайных концов"
